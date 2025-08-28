@@ -1,1 +1,15 @@
+## How to cite
 
+If you use this code, please cite:
+
+- Fiket, Tomislav (2025). *resolve_sc3_inventory_obspy* (v1.0.0).
+
+BibTeX:
+```bibtex
+@software{your_repo_2025,
+  author  = {Fiket, Tomislav},
+  title   = {resolve_sc3_inventory_obspy},
+  year    = {2025},
+  version = {1.0.0},
+  url     = {https://github.com/tomislavfiket/resolve_sc3_inventory_obspy}
+}
