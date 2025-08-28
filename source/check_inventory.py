@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-fix_sc3ml_station_attrs_v3.py
+check_inventory.py
 
 Make SC3ML safe for ObsPy by ensuring every <station> element has numeric
 attribute values for latitude/longitude/elevation (namespace- and case-insensitive).
@@ -9,7 +9,7 @@ attribute values for latitude/longitude/elevation (namespace- and case-insensiti
 Also optionally normalizes <stream> azimuth/dip/sampleRate.
 
 Usage:
-  python fix_sc3ml_station_attrs_v3.py --in seiscomp_inventory.xml --out fixed_sc3ml.xml [--fix-channels]
+  python check_inventory.py --in seiscomp_inventory.xml --out fixed_sc3ml.xml [--fix-channels]
 """
 
 import argparse
@@ -209,3 +209,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
